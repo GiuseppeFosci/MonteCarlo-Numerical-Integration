@@ -1,0 +1,3 @@
+/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/build/CMakeFiles/mc_app.dir
+/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/build/CMakeFiles/edit_cache.dir
+/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/build/CMakeFiles/rebuild_cache.dir
