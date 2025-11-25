@@ -8,18 +8,6 @@
 Un'applicazione desktop ad alte prestazioni per il calcolo numerico di integrali definiti (quadratura) mediante metodi stocastici. Sviluppata in **C++17** con interfaccia grafica moderna in **Qt Quick (QML)**, l'applicazione integra un parser matematico dinamico e sistemi di visualizzazione dati in tempo reale.
 
 
-
-##  Indice
-
-- [Caratteristiche Principali](#-caratteristiche-principali)
-- [Architettura Software](#-architettura-software)
-- [Requisiti di Sistema](#-requisiti-di-sistema)
-- [Installazione e Compilazione](#-installazione-e-compilazione)
-- [Guida all'Uso](#-guida-alluso)
-- [Cenni Teorici](#-cenni-teorici)
-- [Risoluzione Problemi (WSL)](#-risoluzione-problemi-wsl)
-
-
 ##  Caratteristiche Principali
 
 *   **Valutazione Dinamica delle Espressioni:** Utilizzo della libreria `muParser` per il parsing e la valutazione runtime di espressioni matematiche arbitrarie definite dall'utente.
