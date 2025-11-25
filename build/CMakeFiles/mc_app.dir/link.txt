@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/mc_app.dir/src/main.cpp.o CMakeFiles/mc_app.dir/src/PlainMonteCarlo.cpp.o CMakeFiles/mc_app.dir/src/StratifiedMonteCarlo.cpp.o -o mc_app  -lmuparser 

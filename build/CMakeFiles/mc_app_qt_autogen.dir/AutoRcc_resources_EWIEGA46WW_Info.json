@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/build/mc_app_qt_autogen",
+	"CMAKE_BINARY_DIR" : "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration",
+	"CMAKE_SOURCE_DIR" : "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration",
+	"INCLUDE_DIR" : "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/build/mc_app_qt_autogen/include",
+	"INPUTS" : [ "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/main.qml" ],
+	"LOCK_FILE" : "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/build/CMakeFiles/mc_app_qt_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/build/CMakeFiles/mc_app_qt_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/giuseppe/Esercizi/MonteCarlo-Numerical-Integration/resources.qrc",
+	"VERBOSITY" : 0
+}

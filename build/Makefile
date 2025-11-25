@@ -117,24 +117,109 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mc_app
+# Target rules for targets named mc_app_qt
 
 # Build rule for target.
-mc_app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mc_app
-.PHONY : mc_app
+mc_app_qt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mc_app_qt
+.PHONY : mc_app_qt
 
 # fast build rule for target.
-mc_app/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/build
-.PHONY : mc_app/fast
+mc_app_qt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/build
+.PHONY : mc_app_qt/fast
+
+#=============================================================================
+# Target rules for targets named mc_app_qt_autogen
+
+# Build rule for target.
+mc_app_qt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mc_app_qt_autogen
+.PHONY : mc_app_qt_autogen
+
+# fast build rule for target.
+mc_app_qt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt_autogen.dir/build.make CMakeFiles/mc_app_qt_autogen.dir/build
+.PHONY : mc_app_qt_autogen/fast
+
+mc_app_qt_autogen/EWIEGA46WW/qrc_resources.o: mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : mc_app_qt_autogen/EWIEGA46WW/qrc_resources.o
+
+# target to build an object file
+mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o
+
+mc_app_qt_autogen/EWIEGA46WW/qrc_resources.i: mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : mc_app_qt_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+mc_app_qt_autogen/EWIEGA46WW/qrc_resources.s: mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : mc_app_qt_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : mc_app_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
+mc_app_qt_autogen/mocs_compilation.o: mc_app_qt_autogen/mocs_compilation.cpp.o
+.PHONY : mc_app_qt_autogen/mocs_compilation.o
+
+# target to build an object file
+mc_app_qt_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/mc_app_qt_autogen/mocs_compilation.cpp.o
+.PHONY : mc_app_qt_autogen/mocs_compilation.cpp.o
+
+mc_app_qt_autogen/mocs_compilation.i: mc_app_qt_autogen/mocs_compilation.cpp.i
+.PHONY : mc_app_qt_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+mc_app_qt_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/mc_app_qt_autogen/mocs_compilation.cpp.i
+.PHONY : mc_app_qt_autogen/mocs_compilation.cpp.i
+
+mc_app_qt_autogen/mocs_compilation.s: mc_app_qt_autogen/mocs_compilation.cpp.s
+.PHONY : mc_app_qt_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+mc_app_qt_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/mc_app_qt_autogen/mocs_compilation.cpp.s
+.PHONY : mc_app_qt_autogen/mocs_compilation.cpp.s
+
+src/IntegrationController.o: src/IntegrationController.cpp.o
+.PHONY : src/IntegrationController.o
+
+# target to build an object file
+src/IntegrationController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/IntegrationController.cpp.o
+.PHONY : src/IntegrationController.cpp.o
+
+src/IntegrationController.i: src/IntegrationController.cpp.i
+.PHONY : src/IntegrationController.i
+
+# target to preprocess a source file
+src/IntegrationController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/IntegrationController.cpp.i
+.PHONY : src/IntegrationController.cpp.i
+
+src/IntegrationController.s: src/IntegrationController.cpp.s
+.PHONY : src/IntegrationController.s
+
+# target to generate assembly for a file
+src/IntegrationController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/IntegrationController.cpp.s
+.PHONY : src/IntegrationController.cpp.s
 
 src/PlainMonteCarlo.o: src/PlainMonteCarlo.cpp.o
 .PHONY : src/PlainMonteCarlo.o
 
 # target to build an object file
 src/PlainMonteCarlo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/src/PlainMonteCarlo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/PlainMonteCarlo.cpp.o
 .PHONY : src/PlainMonteCarlo.cpp.o
 
 src/PlainMonteCarlo.i: src/PlainMonteCarlo.cpp.i
@@ -142,7 +227,7 @@ src/PlainMonteCarlo.i: src/PlainMonteCarlo.cpp.i
 
 # target to preprocess a source file
 src/PlainMonteCarlo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/src/PlainMonteCarlo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/PlainMonteCarlo.cpp.i
 .PHONY : src/PlainMonteCarlo.cpp.i
 
 src/PlainMonteCarlo.s: src/PlainMonteCarlo.cpp.s
@@ -150,7 +235,7 @@ src/PlainMonteCarlo.s: src/PlainMonteCarlo.cpp.s
 
 # target to generate assembly for a file
 src/PlainMonteCarlo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/src/PlainMonteCarlo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/PlainMonteCarlo.cpp.s
 .PHONY : src/PlainMonteCarlo.cpp.s
 
 src/StratifiedMonteCarlo.o: src/StratifiedMonteCarlo.cpp.o
@@ -158,7 +243,7 @@ src/StratifiedMonteCarlo.o: src/StratifiedMonteCarlo.cpp.o
 
 # target to build an object file
 src/StratifiedMonteCarlo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/src/StratifiedMonteCarlo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/StratifiedMonteCarlo.cpp.o
 .PHONY : src/StratifiedMonteCarlo.cpp.o
 
 src/StratifiedMonteCarlo.i: src/StratifiedMonteCarlo.cpp.i
@@ -166,7 +251,7 @@ src/StratifiedMonteCarlo.i: src/StratifiedMonteCarlo.cpp.i
 
 # target to preprocess a source file
 src/StratifiedMonteCarlo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/src/StratifiedMonteCarlo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/StratifiedMonteCarlo.cpp.i
 .PHONY : src/StratifiedMonteCarlo.cpp.i
 
 src/StratifiedMonteCarlo.s: src/StratifiedMonteCarlo.cpp.s
@@ -174,7 +259,7 @@ src/StratifiedMonteCarlo.s: src/StratifiedMonteCarlo.cpp.s
 
 # target to generate assembly for a file
 src/StratifiedMonteCarlo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/src/StratifiedMonteCarlo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/StratifiedMonteCarlo.cpp.s
 .PHONY : src/StratifiedMonteCarlo.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -182,7 +267,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -190,7 +275,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -198,7 +283,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app.dir/build.make CMakeFiles/mc_app.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mc_app_qt.dir/build.make CMakeFiles/mc_app_qt.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -209,7 +294,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mc_app"
+	@echo "... mc_app_qt_autogen"
+	@echo "... mc_app_qt"
+	@echo "... mc_app_qt_autogen/EWIEGA46WW/qrc_resources.o"
+	@echo "... mc_app_qt_autogen/EWIEGA46WW/qrc_resources.i"
+	@echo "... mc_app_qt_autogen/EWIEGA46WW/qrc_resources.s"
+	@echo "... mc_app_qt_autogen/mocs_compilation.o"
+	@echo "... mc_app_qt_autogen/mocs_compilation.i"
+	@echo "... mc_app_qt_autogen/mocs_compilation.s"
+	@echo "... src/IntegrationController.o"
+	@echo "... src/IntegrationController.i"
+	@echo "... src/IntegrationController.s"
 	@echo "... src/PlainMonteCarlo.o"
 	@echo "... src/PlainMonteCarlo.i"
 	@echo "... src/PlainMonteCarlo.s"
